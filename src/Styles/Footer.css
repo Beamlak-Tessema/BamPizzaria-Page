@@ -1,0 +1,35 @@
+/* Footer Container */
+.footer {
+    background-color: #333; /* Dark background for the footer */
+    padding: 20px 0; /* Padding to give space around content */
+    text-align: center; /* Center content within the footer */
+    color: #fff; /* White text color */
+  }
+  
+  /* Social Icons Container */
+  footer .social-icons {
+    display: flex;
+    justify-content: center; /* Center the icons horizontally */
+    gap: 20px; /* Space between icons */
+    margin-top: 10px; /* Space between footer text and icons */
+  }
+  
+  /* Individual Icon Style */
+  footer .social-icons svg {
+    font-size: 30px; /* Increase the size of icons */
+    color: #fff; /* Default icon color */
+    transition: color 0.3s ease; /* Smooth transition effect on hover */
+    cursor: pointer; /* Show pointer on hover */
+  }
+  
+  /* Hover Effect for Icons */
+  footer .social-icons svg:hover {
+    color: #ff5733; /* Change color on hover */
+  }
+  
+  /* Optional: Footer text style (to separate text and icons) */
+  footer p {
+    font-size: 14px; /* Adjust the font size of the text */
+    margin-bottom: 20px; /* Space between footer text and social icons */
+  }
+  

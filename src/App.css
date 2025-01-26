@@ -1,0 +1,71 @@
+/* App.css 
+.App {
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+   font-family: Arial, Helvetica, sans-serif;
+   overflow: hidden;
+  }
+  body{
+    padding:0;
+    margin:0;
+    overflow: hidden;
+  }
+  
+  */
+  /* General reset for the page */
+html, body {
+    height: 100%;    /* Full height for both HTML and body */
+    margin: 0;       /* Remove default margin */
+    
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Main container holding the content and footer */
+  .main-content {
+    flex: 1; /* This allows the main content to take up remaining space */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Fixed Header */
+  .headercontainer {
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;  /* Full viewport height */
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 10%;
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  
+  /* Content below header */
+  .content {
+    position: relative;
+    z-index: 2;
+    padding-top: 100vh;  /* Push content below the header */
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Footer */
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
